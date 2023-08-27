@@ -1,0 +1,112 @@
+/* Navbar container */
+.navbar {
+    background-color: #ccd5e1; 
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar content */
+  .navbar-content {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  /* Navbar left section */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttonplus {
+    background-color: #219EBC; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .buttonplus svg {
+    fill: white; 
+    margin-right: 5px; 
+    color: white;
+  }
+  
+  #searchBorder {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px ;
+    padding: 5px;
+
+  }
+
+  #searchBorderLine{
+background-color: black;
+width: 1.4px;
+height: 36px; 
+margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+  }
+  
+  /* Navbar right section */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username {
+    margin-right: 10px; 
+    background-color: #fff;
+    border-radius: 5px;
+    color: black;
+    padding: 5px; 
+    font-size: smaller;
+    border-radius: 30px;
+    width: 230px;
+  }
+  
+  .navbar-logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+    right: 28px;
+    top: 3px;
+  }
+  
+  .icon-menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    background-color: #219EBC;
+  }
+  
+  .search-icon{
+    background-color: #219EBC;
+    padding: 7.5px;
+    border-end-end-radius: 5px;
+    border-top-right-radius: 5px;
+  }
